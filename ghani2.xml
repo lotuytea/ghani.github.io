@@ -1,29 +1,39 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);body{font-family:'Open Sans',sans-serif;margin:0;padding:0;position:relative;line-height:normal;background:#334}#main{max-width:700px;margin:5% auto;background:#fafafa;padding-bottom:3%}#main p{color:334;margin:5%}#multitab-video{position:relative;box-sizing:border-box;margin:0 auto;line-height:2em;font-size:15px!important;width:100%}#multitab-video #movie-player{position:relative;padding-bottom:56.25%;padding-top:1.66666666666667em;height:0}#multitab-video #movie-player iframe{position:absolute;top:0;left:0;width:100%;height:100%}#multitab-video #server-list{position:relative;background:#fafafa;display:block}#multitab-video #server-list .server-item:before{content:attr(title);width:9.93333333333333em;display:inline-block;padding-left:0.933333333333333em}.server-item{border-bottom:1px solid #c8c8cb}#multitab-video #server-list a{color:#334;text-decoration:none;border:1px solid #443;padding:0.333333333333333em 0.666666666666667em;display:inline-block;margin:0.333333333333333em;box-sizing:border-box}a:active{background-color:yellow}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 
-<div id='main'>
-<div id='multitab-video'>
-<div id="movie-player">
-	<iframe src="https://drive.google.com/file/d/0B_1DArceSF8qTHZvSzB0Uk5ZZk0/preview" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen name="search_iframe" width="560" height="315"></iframe>
-</div>
-<div id="server-list">
-<div class="server-item" title="GOOGLE">
-<a href="https://mastamvan.blogspot.co.id" target="search_iframe">SD 360p</a>
-<a href="https://www.youtube.com/embed/ue80QwXMRHg" target="search_iframe">SD 480p</a>
-<a href="https://drive.google.com/file/d/0B_1DArceSF8qTHZvSzB0Uk5ZZk0/preview" target="search_iframe">HD 720p</a>
-<a href="https://mastamvan.blogspot.co.id/p/sitemap.html" target="search_iframe">HD 1080p</a>
-</div>
-<div class="server-item" title="OPENLOAD">
-<a href="https://www.youtube.com/embed/DblEwHkde8U" target="search_iframe">SD 360p</a>
-<a href="https://www.youtube.com/embed/ue80QwXMRHg" target="search_iframe">SD 480p</a>
-<a href="https://mastamvan.blogspot.co.id" target="search_iframe">HD 720p</a>
-<a href="https://mastamvan.blogspot.co.id/p/sitemap.html" target="search_iframe">HD 1080p</a>
-</div>
-</div>
-</div>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+<!-- Tabs -->
+<section id="tabs">
+	<div class="container">
+		<h6 class="section-title h1">Tabs</h6>
+		<div class="row">
+			<div class="col-xs-12 ">
+				<nav>
+					<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+						<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+						<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Profile</a>
+						<a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Contact</a>
+						<a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">About</a>
+					</div>
+				</nav>
+				<div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+					<div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+					<div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+						Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
+					</div>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+</section>
+<!-- ./Tabs -->
