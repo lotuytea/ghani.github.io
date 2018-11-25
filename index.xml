@@ -1,75 +1,33 @@
+
 <!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>HTML5 MediaElement - HLS</title>	
-	
-	<script src="../build/jquery.js"></script>	
-	<script src="../build/mediaelement-and-player.min.js"></script>
-	<script src="testforfiles.js"></script>	
-	<link rel="stylesheet" href="../build/mediaelementplayer.min.css" />
-</head>
-<body>
+<HTML><head><meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'/><style><!-- /*<style id='page-skin-1' type='text/css'><!--
+*/
+--></style>
+<style>
+#99288_c_452241 {width:100%;height:100%;position:absolute;z-index:2;top:0;right:0;left:0;bottom:0}#video{width:100%;height:100%;position:absolute;z-index:2;top:0;right:0;left:0;bottom:0} *{margin:0;padding:0}body{background:none repeat scroll 0 0 #000;margin:0;font-family:'Proxima Nova Soft','Helvetica Neue',sans-serif;}#serv-wrap{margin:0}.comments,#comments,.breadcrumbs,h1,h2{display:none}.post{margin:0;padding:0}.homepage{position:relative;padding-top:50px;margin:0;width:100%}.home{background:#1b71bc;padding:2px;margin:0;text-align:center;font-size:34px;font-weight:700;text-transform:uppercase;color:#fff}.live3 {bottom: 0;color: #cb2129;font-size: 100px;height: 0;left: 0;margin: auto;padding-bottom: 0;position: absolute;right: 0;text-align: center;top: -250px;width: 80%;}#play {border: 0 solid #dfdfdf;border-radius: 1px;color: #6e6e6e;font-size: 12px;left: 0;line-height: 20px;padding: 1px 2px 2px;position: absolute;top: 0;z-index: 999;}.playbtn {background: #3498db linear-gradient(to bottom, #3498db, #2980b9) repeat scroll 0 0;border-radius: 2px;color: #fff;font-family: Arial;font-size: 12px;padding: 2px;text-decoration: none;}.playbtn:hover {background: #3cb0fd linear-gradient(to bottom, #3cb0fd, #3498db) repeat scroll 0 0;text-decoration: none;}.live3:hover {color: #139809;}#cip {background: #000;bottom: -2px;color: #fff;font-family: Arial;font-size: 10px;position: absolute;text-align: left;width: 100%;z-index: 999;}#ion {bottom: 0;color: #fff;font-family: Arial;font-size: 11px;position: absolute;text-align: left;width: 100%;z-index: 999;}.ionbtn {background: #db3434 linear-gradient(to bottom, #db3434, #b92929) repeat scroll 0 0;border-radius: 2px;color: #fff;padding: 0 3px;text-decoration: none;}.ionbtn:hover {background: #fd3c3c linear-gradient(to bottom, #fd3c3c, #db3434) repeat scroll 0 0;text-decoration: none;}#cif {background-size: contain;border: 0 none;height: 15px;position: absolute;right: 1px;top: 1px;width: 80px;z-index: 101;}#logo {position: relative;}#tv{border-radius:3px;height:0;overflow:hidden;padding-top:0}#tv iframe,#tv embed,#tv object,#tv video{background:#000;border:0 none;height:100%;left:0;position:absolute;top:0;width:100%}#tvdesk{border-radius:3px;height:0;overflow:hidden;padding-bottom:0;padding-top:0}#tvdesk iframe,#tv embed,#tv object,#tv video{border:0 none;height:100%;left:0;position:absolute;top:0;width:100%}#mobtivi{height:0;overflow:hidden;padding-bottom:60%;padding-top:0;position:relative;display:none}#mobtv{height:0;overflow:hidden;padding-bottom:65%;padding-top:0;position:relative;display:none}#mobtv iframe,#mobtv embed,#mobtv object,#mobtv video{border:0 none;height:100%;left:0;position:absolute;top:0;width:100%}#tvtom{border:0 solid #dfdfdf;border-radius:1px;color:#6e6e6e;font-size:12px;line-height:20px;padding:10px 0 0 11px;position:absolute;z-index:999;top:0;left:0}#player{width:100%;height:100%;position:absolute;z-index:2;top:0;right:0;left:0;bottom:0}#video{width:100%;height:100%;position:absolute;z-index:2;top:0;right:0;left:0;bottom:0}#tvtommob {border: 0 solid #dfdfdf;border-radius: 1px;color: #6e6e6e;font-size: 12px;line-height: 20px;padding: 10px 0;position: absolute;z-index: 999;bottom: 0;left: 0;}.tomboltv {background: #f3f3f3 none repeat scroll 0 0;border: 1px solid #cbc5c5;border-radius: 0.3em;color: #000;display: inline-block;font: bold 11px Arial,sans-serif;margin: 0;min-width: 50px;padding: 5px 3px;text-align: center;text-decoration: none;}.tomboltv:hover {border-color: #cbc5c5;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);color: #000;}</style>
+<script id='cloudflare' src='https://bit.ly/2PTQAVt' type='text/javascript'></script>
+</head><!--<head>
+<link href='https://www.blogger.com/static/v1/widgets/254310735-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=56051784191233697&amp;zx=d16692a1-63e9-4ce2-9772-ed07665f2d91' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=56051784191233697&amp;zx=d16692a1-63e9-4ce2-9772-ed07665f2d91' rel='stylesheet'/></noscript>
 
-<h1>MediaElementPlayer.js</h1>
+</head>-->
+<body class='loading'><div id='serv-wrap'><div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+<!--Can't find substitution for tag [defaultAdStart]-->
+<div class='post hentry'><h1 class='entry-title'>RCTI</h1><div class='post-body entry-content'><div id="mobtv">
+<video poster="https://3.bp.blogspot.com/-aHHJ9o1kLlE/W1DFelzoeMI/AAAAAAAABMk/KEH2rlmj4awaYqEXIgEWMs-eQHN8g7S0wCLcBGAs/s1600/TVAnda.jpg" width="100%" controls="" src="https://neonet1.azureedge.net/179ce8be-ecd3-452e-8a79-29bfe925bb98/afda3570-e907-41a5-bf09-c455c56c00e3.ism/QualityLevels(3500000)/Manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8"></video>
+</div>
 
-<h2>HLS Wrapper</h2>
-
-<code><pre>
-&lt;video width="640" height="360" id="player1" preload="none"&gt;
-
-	&lt;!-- Pseudo HTML5 --&gt;
-	&lt;source type="application/x-mpegURL" src="http://www.streambox.fr/playlists/test_001/stream.m3u8" /&gt;
-
-&lt;/video&gt;
-</pre></code>
-
-<video width="640" height="360" id="player1">
-    
-    <!-- Pseudo HTML5 -->
-    <source type="application/x-mpegURL" src="http://www.streambox.fr/playlists/test_001/stream.m3u8" />
-
-</video>
-	
-<span id="player1-mode"></span>
-
-<h3> Test Videos </h3>
-<div> The following videos should stream correctly. Each time an
-issue is reported with a sample playlist, it will be added in the list
-and verified after bugfixing </div>
-<ul id="streamlist">
-</ul>
-
-Check with your own Playlist ! <a href="http://kb2.adobe.com/cps/142/tn_14213.html">beware of Cross Domain Policy</a><br>
-<input id="userInput" value="http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8" size="80"> <button onclick="userSubmit()">Load and Play</button><br>
-<p>
-
-<script type="text/javascript" src="hls_streams.js"></script>
-<script type="text/javascript">
-function listStreams(list, container) {
-for(var i=0; i<list.length; i++) { var entry = document.createElement("li");
-entry.innerHTML = "<a href='#' onclick='return loadStream(\""+list[i].file+"\")'>"+list[i].title+"</a>";
-document.getElementById(container).appendChild(entry);
-}
-}
-listStreams(teststreams, "streamlist");
-function userSubmit() {
-   loadStream(document.getElementById('userInput').value);
-}
-function loadStream(url) {
-$('video')[0].player.setSrc(url);
-$('video')[0].player.play();
-}
+<div id="tvdesk">
+<script src='https://cdn.jsdelivr.net/clappr/latest/clappr.min.js' type='text/javascript'></script><div id='player'></div><script>var playerElement=document.getElementById("player");var player=new Clappr.Player({height:"100%",width:"100%",hlsjsConfig:{xhrSetup:function(xhr,url){xhr.withCredentials=false;}},playbackConfig:{crossorigin:'use-credentials'}});player.attachTo(playerElement);player.load({source:'https://neonet1.azureedge.net/179ce8be-ecd3-452e-8a79-29bfe925bb98/afda3570-e907-41a5-bf09-c455c56c00e3.ism/QualityLevels(3500000)/Manifest(video,format=m3u8-aapl-v3,audiotrack=audio).m3u8',mimeType:'application/x-mpegURL'});player.play();</script></div><div style='clear: both;'></div></div></div>
+<!--Can't find substitution for tag [adEnd]-->
+</div></div></div>
+<div id='cif'><img alt="TVAnda" src="https://1.bp.blogspot.com/-tO4xEfnpZMo/W45f5Y8sb6I/AAAAAAAAAJA/wYqh-SdHKxs8wOC619g57UmSRnKso2uTACLcBGAs/s1600/LOGO%2BWEB.png" title="TVAnda" width="80" height="15"></div>
+</div><!--
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/4185472346-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY7O3KS7TXOp7S3gmEIk9Ka21eogOA:1543091609077';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d56051784191233697','//www.livetvbola.com/p/rcti.html','56051784191233697');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '56051784191233697', 'title': 'LiveTVBola', 'url': 'http://www.livetvbola.com/p/rcti.html', 'canonicalUrl': 'http://www.livetvbola.com/p/rcti.html', 'homepageUrl': 'http://www.livetvbola.com/', 'searchUrl': 'http://www.livetvbola.com/search', 'canonicalHomepageUrl': 'http://www.livetvbola.com/', 'blogspotFaviconUrl': 'http://www.livetvbola.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': true, 'httpsEnabled': false, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'id', 'localeUnderscoreDelimited': 'id', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'feedLinks': '', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/42c8d52dfd77d63d', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Dapatkan link', 'key': 'link', 'shareMessage': 'Dapatkan link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Bagikan ke Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Bagikan ke Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Bagikan ke Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Bagikan ke Google+', 'target': 'googleplus'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27id\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Baca selengkapnya', 'pageType': 'static_page', 'pageId': '1891751140645531099', 'pageName': 'RCTI', 'pageTitle': 'LiveTVBola: RCTI'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Tautan disalin ke papan klip!', 'ok': 'Oke', 'postLink': 'Tautan Pos'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Khusus', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'RCTI', 'description': '     ', 'url': 'http://www.livetvbola.com/p/rcti.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': true, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'pageId': 1891751140645531099}}]);
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'useNgc': true, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/758376078-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
 </script>
-
-
-<script>
-$('video').mediaelementplayer({
-	success: function(media, node, player) {
-		$('#' + node.id + '-mode').html('mode: ' + media.pluginType);
-	}
-});
-</script>
-
-</body>
-</html>
+</body>--></HTML>
